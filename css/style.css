@@ -1,4 +1,13 @@
 /* utility */
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #393E45;
+  font-size: 0.9rem;
+}
+
 .content_wrapper {
   width: 100%;
   max-width: 960px;
@@ -9,6 +18,15 @@
 a {
   text-decoration: none;
   cursor: pointer;
+  color: #393E45;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:visited {
+  color: #393E45;
 }
 
 h2 {
@@ -66,24 +84,15 @@ nav li {
   display: inline-block;
   -webkit-transition: opacity .3s;
   transition: opacity .3s;
-  color: #393E45;
-}
-
-nav li:hover {
-  opacity: .8;
-}
-
-nav li:visited {
-  color: #393E45;
 }
 
 /* main-visual */
-.main-visual {
-  background: url(img/mainvisual.jpg);
+.main-visual img {
   width: 100%;
+  max-width: 1920px;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about_container {
