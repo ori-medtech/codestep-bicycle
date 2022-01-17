@@ -29,6 +29,11 @@ a:visited {
   color: #393E45;
 }
 
+h1 {
+  font-size: 10px;
+  line-height: .5;
+}
+
 h2 {
   font-size: 32px;
 }
@@ -40,6 +45,10 @@ h3 {
 
 p {
   font-size: 14.4px;
+}
+
+li {
+  list-style: none;
 }
 
 .u_heading {
@@ -59,11 +68,6 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-
-.header_container h1 {
-  font-size: 10px;
-  line-height: .5;
 }
 
 .logo {
