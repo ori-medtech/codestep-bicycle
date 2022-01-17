@@ -160,5 +160,23 @@ nav li {
 footer {
   text-align: center;
   padding: 10px 0;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 670px) {
+  .about_container {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .bicycle_contents {
+    display: block;
+  }
+  .bicycle_contents li {
+    width: 100%;
+  }
+  .bicycle_contents li + li {
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
