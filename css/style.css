@@ -34,11 +34,16 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 1rem;
+  padding: 10px 0;
 }
 
 p {
   font-size: 14.4px;
+}
+
+li {
+  list-style: none;
 }
 
 .u_heading {
@@ -71,7 +76,6 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -95,6 +99,7 @@ nav li {
      object-fit: cover;
 }
 
+/* about */
 .about_container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -116,6 +121,10 @@ nav li {
 .about_contents {
   text-align: left;
   margin-left: 30px;
+}
+
+.about_contents h3 {
+  line-height: 1.5;
 }
 
 /* bicycle */
